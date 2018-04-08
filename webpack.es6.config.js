@@ -3,10 +3,10 @@ var htmlWebpackPlugin = require("html-webpack-plugin")
 
 module.exports = {
 	entry: {
-		bundle: "./index.js" // 这里可以打包多个js文件
+		bundle: "./es6/index.js" // 这里可以打包多个js文件
 	},
 	output: {
-		path: path.resolve(__dirname, './build'),
+		path: path.resolve(__dirname, './es6/build'),
 		filename: "[name].js" // 这里可以直接获得js的名字
 	},
 	module: {
